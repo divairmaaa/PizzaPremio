@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation1"
+            android:checked="false"
+            android:icon="@drawable/list"
+            android:title="Pilihan Menu" />
+        <item
+            android:id="@+id/navigation2"
+            android:checked="false"
+            android:icon="@drawable/icon"
+            android:title="Order Pesanan" />
+        <item
+            android:id="@+id/navigation3"
+            android:checked="false"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/navigation4"
+            android:checked="false"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+    </group>
+
+    <item
+        android:id="@+id/navigasi_kategori_2"
+        android:text="Sub Item">
+        <menu>
+            <item
+                android:id="@+id/navigation5"
+                android:checked="false"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+
+        </menu>
+    </item>
+
+</menu>

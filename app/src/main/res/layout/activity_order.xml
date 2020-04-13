@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/order">
+    <include
+        android:id="@+id/header"
+        layout="@layout/header"/>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/nama"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza"
+                android:textSize="15dp"
+                android:background="#f24153"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/pizza1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Meat Lovers"
+                    android:textSize="14dp"/>
+                <EditText
+                    android:id="@+id/j1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/pizza2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Frankfurter BBQ"
+                    android:textSize="14dp"/>
+                <EditText
+                    android:id="@+id/j2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/pizza3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Cheeseburger Pizza"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/pizza4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="American Favourite"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pasta"
+                android:textSize="15dp"
+                android:background="#f24153"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/pasta1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Beef Spaghetti"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/pasta2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Chicken Fusili"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/pasta3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Black Pepper Beef"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/pasta4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Cheese Beef Fusilli"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minuman"
+                android:textSize="15dp"
+                android:background="#f24153"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/minum1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Choco Mint"
+                    android:textSize="14dp"/>
+                <EditText
+                    android:id="@+id/j8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/minum2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Strawberry Milkshake"
+                    android:textSize="14dp"/>
+                <EditText
+                    android:id="@+id/j9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/minum3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Avocado Float"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/minum4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Tomato Juice"
+                    android:textSize="14dp"/>
+                <EditText
+                    android:id="@+id/j11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dessert"
+                android:textSize="15dp"
+                android:background="#f24153"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/d1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Banana Split"
+                    android:textSize="14dp"/>
+                <EditText
+                    android:id="@+id/j12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/d2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Vanilla Oreo"
+                    android:textSize="14dp"/>
+                <EditText
+                    android:id="@+id/j13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/d3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Strawberry Cookies"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/d4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Choco Devil"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi"
+                android:textSize="15dp"
+                android:background="#f24153"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/nasi1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Black Pepper Chicken"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/nasi2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Oriental Chicken"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/nasi3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Meatballs Beef Mushroom Sauce"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/nasi4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Beef Steak"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/j20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Jml"
+                    android:textSize="14dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/book"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="PESAN"
+                    android:background="#ff3d3d"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/textView2" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:text="Nama :"
+        android:textColor="#ff3d3d"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="Ketikkan nama anda"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignRight="@+id/scrollView1"
+        android:layout_alignEnd="@+id/scrollView1">
+        <requestFocus />
+    </EditText>
+</RelativeLayout>

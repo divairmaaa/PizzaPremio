@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pizza Premio</string>
+    <string-array name="list">
+        <item>Pilihan Menu</item>
+        <item>Pizza</item>
+        <item>Pasta</item>
+        <item>Minuman</item>
+        <item>Dessert</item>
+        <item>Nasi</item>
+    </string-array>
+
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <color name="baba">#f4415c</color>
+</resources>
